@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 测试产出
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# 抓下来的真实页面（可能含真实数据，别提交）
+*.html
+!tests/fixtures/*.html
+samples/
